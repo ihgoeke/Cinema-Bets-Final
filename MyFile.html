@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Title is Nigh</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/cinBet.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/cinBet.js"> </script>
+    <script type="text/javascript" src="js/bootstrap.min.js"> </script>
+</head>
+<body>
+
+  <header>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><a href="MyFile.html"><img class="img-responsive" src="images/logo.png" > </a>
+      </div>
+    <div class="col-lg-8 col md-8 col-sm-8 col-xs-4">
+
+    </div>
+    <div id="navvy" class="navbar navbar-fixed-top  col-xs-offset-10 ">
+      <div class="nav navbar-nav" id="menu"> <a href="" >Menu</a>
+      <ul id="mobile-menu" class="nav navbar-nav">
+        <li><a href="#today"> Todays Wagers </a></li>
+        <li><a href="#actionbet"> Place a Bet </a></li>
+        <li id="account_list"><a  href=""> Account</a>
+          <ol >
+            <li> <a href="about.html"> About  </a></li>
+            <li> <a href="account.html"> Account Page </a></li>
+            <li> <a href=""> Active Bets  </a></li>
+            <li> <a href=""> Settings </a></li>
+            <li> <a href=""> Logout </a></li>
+          </ol>
+        </li>
+      </ul>
+      </div>
+
+    </div>
+
+      <div id="navvy2" class="navbar navbar-fixed-top col-xs-offset-9 col-sm-9 col-sm-offset-6 col-md-9 col-md-offset-7 col-lg-9 col-lg-offset-8">
+
+        <ul id="mobile-menu2" class="nav navbar-nav">
+          <li><a href="#today"> Todays Wagers </a></li>
+          <li><a href="#actionbet"> Place a Bet </a></li>
+          <li id="account_list2"><a  href=""> Account</a>
+            <ol >
+              <li> <a href="about.html"> About  </a></li>
+              <li> <a href="account.html"> Account Page </a></li>
+              <li> <a href=""> Active Bets  </a></li>
+              <li> <a href=""> Settings </a></li>
+              <li> <a href=""> Logout </a></li>
+            </ol>
+          </li>
+        </ul>
+
+
+    </div>
+  </header>
+  <div class="container">
+  <!-- Navigation-->
+
+    <!-- Today's bets -->
+
+    <h3 class="upc" id="today"> Today's Bets </h3>
+
+    <div id="slider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active" ></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="poster" src="images/rogue_one.jpg" alt="Rogue One">
+          <div class="carousel-caption"> Rogue One: A Star Wars Story </div>
+        </div>
+
+        <div class="item">
+          <img src="images/collateral-beauty.jpg" alt="Collateral Beauty">
+          <div class="carousel-caption"> Collateral Beauty </div>
+        </div>
+
+        <div class="item">
+          <img src="images/the-hollow-point.jpg" alt="The Hollow Point">
+          <div class="carousel-caption"> The Hollow Point </div>
+        </div>
+      </div> <!--carousel-inner-->
+
+      <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+
+
+    </div> <!--the-slider -->
+
+
+
+
+
+    <!-- How to play section -->
+  <div id="cap" align="center">
+    <h2 > <a  href=""> How to play: </a>
+    </h2>
+      <ul>
+        <li>Check out all of the
+          active bets currently
+          on the site </li>
+        <li> Find a bet with favorable chances</li>
+        <li> Place a bet by filling out the form</li>
+      </ul>
+  </div>
+
+    <!-- Upcoming Bets -->
+
+    <h3 class="upc" id="today3"> Upcoming Bets </h3>
+
+    <div id="slider2" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slider2" data-slide-to="0" class="active" ></li>
+        <li data-target="#slider2" data-slide-to="1"></li>
+        <li data-target="#slider2" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="poster" src="images/ass.jpg" alt="">
+          <div class="carousel-caption"> Assassin's Creed</div>
+        </div>
+
+        <div class="item">
+          <img src="images/pass.jpg" alt="Passengers">
+          <div class="carousel-caption"> Passengers </div>
+        </div>
+
+        <div class="item">
+          <img src="images/why.jpg" alt="Why Him">
+          <div class="carousel-caption"> Why Him? </div>
+        </div>
+      </div> <!--carousel-inner-->
+
+      <a class="left carousel-control" href="#slider2" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#slider2" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      </div>
+    <!-- Previous Bets / game -->
+    <h3 class="upc" id="today2"> Historical Bets </h3>
+
+    <div id="slider3" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slider3" data-slide-to="0" class="active" ></li>
+        <li data-target="#slider3" data-slide-to="1"></li>
+        <li data-target="#slider3" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div id='game1' class="item active">
+          <img class="poster" src="images/raiders.jpg" alt="Raiders of the Lost Ark">
+          <div  class="carousel-caption"> Raiders of the Lost Ark </div>
+        </div>
+
+        <div class="item">
+          <img src="images/suicide-squad.jpg" alt="Suicide Squad">
+          <div class="carousel-caption"> Suicide Squad</div>
+        </div>
+
+        <div class="item">
+          <img src="images/doctor_strange.jpg" alt="Doctor Strange">
+          <div class="carousel-caption"> Doctor Strange </div>
+        </div>
+      </div> <!--carousel-inner-->
+
+      <a class="left carousel-control" href="#slider3" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#slider3" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  <!-- Active Bet form -->
+
+  <form action="" id="actionbet">
+    <h3> Active Bet Slip </h3>
+    <label for="wager" > Wager: </label>
+    <input type="text" name="wager" id="wager" value="0" size="10">
+    <br/> <br/>
+    <label for="email"> Email </label>
+    <input type="text" name="email" id="email" required>
+    <br/><br/>
+    <label for="actmov"> Which movie's Rotten Tomato score are you betting on? </label>
+    <input type="text" name="actmov" id="actmov" list="actmovs">
+    <datalist id="actmovs">
+      <option value="The Accountant" label="The Accountant"> </option>
+      <option value="Jack Reacher 2" label="Jack Reacher 2"> </option>
+      <option value="Keeping Up with the Jones'" label="Keeping Up with the Jones'"> </option>
+    </datalist>
+    <br/> <br/>
+    <fieldset >
+      <legend> Rotten Tomato Score Percentile </legend>
+      <input type="radio" name="perc" id="perc0" value="0">
+      <label for="perc0"> 0% - 9% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc1" value="1">
+      <label for="perc1"> 10% - 19% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc2" value="2">
+      <label for="perc2"> 20% - 29% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc3" value="3">
+      <label for="perc3"> 30% - 39% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc4" value="4">
+      <label for="perc4"> 40% - 49% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc5" value="5">
+      <label for="perc5"> 50% - 59% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc6" value="6">
+      <label for="perc6"> 60% - 69% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc7" value="7">
+      <label for="perc7"> 70% - 79% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc8" value="8">
+      <label for="perc8"> 80% - 89% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc9" value="9">
+      <label for="perc9"> 90% - 99% Fresh </label><br/>
+    </fieldset>
+    <br/>
+    <p>
+      <input type="submit" value="place bet">
+      <input type="reset" value="clear bet slip">
+    </p>
+  </form>
+
+<footer>
+  Property of Ian Goeke <br/>
+  Cinema Bets is a subsidiary of <br/>
+  Hard Boiled Business
+
+</footer>
+  </div>
+</body>
+</html>

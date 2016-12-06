@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Title is Nigh</title>
+    <link rel="stylesheet" type="text/css" href="cinBet.css" />
+    <script type="text/javascript" src="cinBet.js"> </script>
+</head>
+<body>
+  <header>
+
+      <!-- <p>
+        <h4 id="how"> How to play: </h4>
+        <br/>
+        <h4> 1. </h4>
+        <span> Buy Coins (or use your free ones) </span>
+      <br/>
+        <h4> 2.</h4>
+        <span> Find a bet with favorable chances </span>
+      <br/>
+        <h4> 3. </h4>
+        <span> Fill out the betting slip in "Today's Wagers" </span>
+      <br/>
+      -->
+  </header>
+
+    <!-- Navigation-->
+    <nav id="nav" class="nav nav-tabs" role="navigation">
+      <h1 id="logo"> Cinema Bets </h1>
+      <ul>
+        <li id="tyws">
+          <a href="#today">
+          Today's Wagers
+          </a>
+        </li>
+        <li id="bet_nav">
+          <a href="#actionbet">
+          Place Bet
+          </a>
+        </li>
+        <li id="aboot">
+          <a href="about.html">
+            About
+          </a>
+        </li>
+        <li id="account">
+          <a href="account.html"> Account </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- How to play section -->
+    <table id="table">
+      <caption id="cap"> How to play: </caption>
+      <tr id="num">
+        <th> 1. </th>
+        <th> 2. </th>
+        <th> 3. </th>
+      </tr>
+      <tr id="how">
+        <td>
+          Check out all of the <br/>
+          active bets currently <br/>
+          on the site
+        </td>
+        <td>
+          Find a bet with <br/>
+          favorable chances
+        </td>
+        <td>
+          Place a bet by <br/>
+          filling out the <br/>
+          form
+        </td>
+      </tr>
+    </table>
+
+  <!-- Upcoming -->
+
+    <h3 class="upc"> Upcoming bets...</h3>
+    <table id="table1">
+      <tr>
+        <th class="titles"> Rogue One: <br/> A Star Wars Story </th>
+        <th class="titles"> Doctor Strange </th>
+        <th class="titles"> Hacksaw Ridge </th>
+      </tr>
+      <tr>
+          <td class="bimg"> <img src="rogue_one.jpg"></td>
+          <td class="bimg"> <img src="doctor_strange.jpg"></td>
+          <td class="bimg"> <img src="hacksaw_ridge.jpg"></td>
+      </tr>
+    </table>
+
+  <!-- active bets -->
+    <h3 class="upc" id="today"> Today's Bets </h3>
+  <table>
+    <tr>
+      <th class="titles"> The <br/> Accountant</th>
+
+      <th class="titles"> Jack <br/> Reacher <br/> 2 </th>
+      <th class="titles"> Keeping up <br/> with the <br/> Jones' </th>
+    </tr>
+    <tr>
+      <td class="bimg"> <img src="accountant.jpg"></td>
+      <td class="bimg"> <img src="jack_reacher.jpg"></td>
+      <td class="bimg"> <img src="keeping.jpg"> </td>
+    </tr>
+  </table>
+
+  <!-- past wagers -->
+
+  <h3 class="upc"> Historical Wagers </h3>
+  <table>
+    <tr>
+      <th class="titles"> Deepwater <br/> Horizon </th>
+      <th class="titles"> Sully </th>
+      <th class="titles"> Middle School: <br/> the Worst Years <br/> of My Life </th>
+    </tr>
+    <tr>
+      <td class="bimg"> <img src="deepwater.jpg"></td>
+      <td class="bimg"> <img src="sully.jpg"></td>
+      <td class="bimg"> <img src="middle_school.jpg"></td>
+    </tr>
+  </table>
+
+  <!-- Active Bet form -->
+
+  <form action="" id="actionbet" method="get">
+    <h3> Active Bet Slip </h3>
+    <label for="wager" > Wager: </label>
+    <input type="text" name="wager" id="wager" value="0" size="10">
+    <br/> <br/>
+    <label for="email"> Email </label>
+    <input type="text" name="email" id="email" required>
+    <br/><br/>
+    <label for="actmov"> Which movie's Rotten Tomato score are you betting on? </label>
+    <input type="text" name="actmov" id="actmov" list="actmovs">
+    <datalist id="actmovs">
+      <option value="The Accountant" label="The Accountant"> </option>
+      <option value="Jack Reacher 2" label="Jack Reacher 2"> </option>
+      <option value="Keeping Up with the Jones'" label="Keeping Up with the Jones'"> </option>
+    </datalist>
+    <br/> <br/>
+    <fieldset >
+      <legend> Rotten Tomato Score Percentile </legend>
+      <input type="radio" name="perc" id="perc0" value="0">
+      <label for="perc0"> 0% - 9% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc1" value="1">
+      <label for="perc1"> 10% - 19% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc2" value="2">
+      <label for="perc2"> 20% - 29% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc3" value="3">
+      <label for="perc3"> 30% - 39% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc4" value="4">
+      <label for="perc4"> 40% - 49% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc5" value="5">
+      <label for="perc5"> 50% - 59% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc6" value="6">
+      <label for="perc6"> 60% - 69% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc7" value="7">
+      <label for="perc7"> 70% - 79% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc8" value="8">
+      <label for="perc8"> 80% - 89% Fresh </label><br/>
+      <input type="radio" name="perc" id="perc9" value="9">
+      <label for="perc9"> 90% - 99% Fresh </label><br/>
+    </fieldset>
+    <br/>
+    <p>
+      <input type="submit" value="place bet">
+      <input type="reset" value="clear bet slip">
+    </p>
+  </form>
+
+<footer>
+  Property of Ian Goeke <br/>
+  Cinema Bets is a subsidiary of <br/>
+  Hard Boiled Business
+
+</footer>
+</body>
+</html>

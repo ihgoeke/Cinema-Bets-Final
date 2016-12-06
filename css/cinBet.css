@@ -1,0 +1,238 @@
+
+ul{
+  list-style-type: none;
+}
+#navvy {
+  align-content: right;
+  }
+#account {
+  display: inline;
+  position: fixed;
+  left: auto;
+  font-family: Eurostile;
+}
+#tyws {
+  display: inline;
+  float: left;
+  font-family: "Andale Mono";
+  width: 15%;
+  color: blueviolet;
+  visited: blueviolet;
+}
+#bet_nav{
+  display: inline;
+  float: left;
+  font-family: "Andale Mono";
+  width: 15%;
+  color: blueviolet;
+  visited: blueviolet;
+}
+
+#aboot {
+  display: inline;
+  float: left;
+  font-family: "Andale Mono";
+  width: 15%;
+}
+#how {
+  font-size: 1.4em;
+  padding: 1.2em;
+  text-align: center;
+}
+#num{
+  font-family: Eurostile;
+  font-size: 1.3em;
+  float: none;
+}
+h4 {
+  float: left;
+}
+
+table{
+  width: 100%;
+  margin-top: 3.5%;
+}
+
+.upc {
+  display: block;
+  font-style: italic;
+  font-weight: bolder;
+  background: grey;
+  color: white;
+  font-size: 1.8em;
+  padding-left: 6%;
+  border-radius: 25px;
+  margin-top: 15%;
+  }
+
+.bimg {
+  height: 14em;
+  background-color: aquamarine;
+  width: 30%;
+}
+img{
+  align-content: center;
+}
+.titles {
+  margin-bottom: 10px;
+  width: 25%;
+}
+footer{
+  margin-top: 6em;
+  font-size: 2em;
+  font-family: Eurostile;
+  border-radius: 25px;
+  text-align: center;
+  background-color: #d8d5d8;
+  }
+
+#actionbet{
+  border: groove;
+  padding: 10px;
+}
+#table1{
+  border-radius: 25px;
+
+}
+
+#table{
+  margin-bottom: 3.6em;
+  padding-top:1.3em;
+}
+
+table{
+  margin-bottom: 6em;
+}
+
+#about{
+  margin-top: 10%;
+  border-radius: 25px;
+  background-color: aquamarine;
+  font-family: Eurostile;
+  font-size: 1.2em;
+  padding-left: 2.5em;
+  padding-bottom: 2.5em;
+  padding-right: 2.5em;
+  padding-top: 1.1em;
+}
+
+blockquote h5{
+  font-size: 2.4em;
+}
+
+a {
+  text-decoration: none;
+}
+td {
+  padding-left: 2%;
+  text-align: center;
+}
+
+#account1{
+  margin-top: 120px;
+  font-family: Eurostile;
+
+}
+
+li span{
+  margin-left: 10%;
+}
+
+.img-responsive {
+  !important align-content: center;
+}
+
+.accounts{
+  border-radius: 25px;
+  background-color: aquamarine;
+  padding-left: 5%;
+  font-family: Eurostile;
+}
+#account_list ol{
+  background: lightgray;
+  padding-right: 3%;
+  margin-right: 1%;
+}
+#account_list ol li{
+  display: none;
+
+}
+#mobile-menu{
+  display: none;
+  background: lightgrey;
+  align-content: right;
+  padding-right: 3%;
+  margin-right: 1%;
+}
+
+#menu{
+  margin-top: 1.2em;
+
+}
+#menu a{
+  align-content: right;
+  right: 5%;
+}
+
+#menu:hover #mobile-menu{
+  display: inherit;
+}
+#account_list:hover ol li {
+  display: block;
+  margin-right: 4%;
+}
+#navvy2{
+  display:none;
+}
+.carousel-inner img {
+  margin: auto;
+  height: 50%;
+}
+#cap ul li{
+  display: none;
+  font-weight: bolder;
+  background: aquamarine;
+  color: darkcyan;
+  font-size: 1.4em;
+  border-radius: 25px;
+  width: 65%;
+  padding: 2%;
+  border: darkcyan;
+  border-style: solid;
+}
+#cap:hover ul li{
+  display: inherit;
+}
+
+#game1:focus div input{
+  display: inline-block;
+}
+@media only screen and (min-width: 768px) {
+  .accounts{
+    border-radius: 25px;
+    background-color: aquamarine;
+    padding-left: 5%;
+  }
+  #account_list2 ol{
+    background: lightgray;
+  }
+  #account_list2 ol li{
+    display: none;
+    margin-right: 4%;
+  }
+
+  #account_list2:hover ol li{
+    display: block;
+    margin-right: 4%;
+
+  }
+  #menu{
+    display: none;
+  }
+  #navvy{
+    display: none;
+  }
+  #navvy2{
+    display: inherit;
+  }
+}
